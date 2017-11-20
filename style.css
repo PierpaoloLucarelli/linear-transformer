@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+}
+
+.canvas{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 50px;
+}
+
+input{
+	position: relative;
+}
