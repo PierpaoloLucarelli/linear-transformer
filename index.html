@@ -6,20 +6,19 @@
     <style> body {padding: 0; margin: 0;} </style>
     <script src="p5.min.js"></script>
     <script src="addons/p5.dom.min.js"></script>
-    <script src="addons/p5.sound.min.js"></script>
-    <script src="transformer.js"></script>
-    <script src="interactions.js"></script>
   </head>
   <body>
     <h1>Linear transformer</h1>
+    <div id="buttons"></div>
     <div id="canvas"></div>
     <div id="inputs"></div>
-    <div>
-      <h2>Transformation matrix</h2>
-      <span id="x1-label">0</span>
-      <span id="x2-label">1</span><br>
-      <span id="y1-label">1</span>
-      <span id="y2-label">0</span>
+    <h2>Transformation matrix</h2>
+    <div id="labels">
+      <img src="./img/braket.png" id="left-br">
+      <img src="./img/braket.png" id="right-br">
     </div>
+    <br>
+    <script src="transformer.js"></script>
+    <script src="interactions.js"></script>
   </body>
 </html>

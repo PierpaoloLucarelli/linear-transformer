@@ -11,3 +11,52 @@ body{
 input{
 	position: relative;
 }
+
+h2{
+	margin-bottom: 0;
+}
+
+#labels{
+	position: relative;
+	display: inline-block;
+}
+
+#labels p{
+	position: absolute;
+}
+
+#x1-label{
+	top: 0;
+	left: 0;
+}
+
+#y1-label{
+	top: 40px;
+	left: 0;
+}
+
+#x2-label{
+	top: 0;
+	left: 40px;
+}
+
+#x1-label{
+	top: 40px;
+	left: 40px;
+}
+
+#labels img{
+	position: absolute;
+	height: 80px;
+}
+
+#left-br{
+	top: 5px;
+	left: -30px;	
+}
+
+#right-br{
+	top: 3px;
+	left: 55px;
+	transform: rotate(180deg);
+}
